@@ -32,7 +32,7 @@ font-family: Averta, sans-serif;
   margin: auto;
   /* align-content: center; */
   justify-content: center;
-  display: flex;
+  /* display: flex; */
   padding-top: 69px;
   font-family: Averta, sans-serif;
   margin-bottom: 69px;
@@ -165,7 +165,7 @@ font-family: Averta, sans-serif;
   padding-left: 15px;
   font-family: Averta, sans-serif;
   padding-right: 15px;
-  width: 1349px;
+  /* width: 1349px; */
 }
 
 /* .program-content{
@@ -202,6 +202,8 @@ font-family: Averta, sans-serif;
 }
 
 .three-outer-cont{
+  /* display: flex; */
+  /* justify-content: space-between; */
   margin: 0 auto;
   text-align: center;
   width: 100%;
@@ -221,9 +223,11 @@ font-family: Averta, sans-serif;
 .three-row{
   /* border: 3px dotted yellow; */
   display: flex;
+  justify-content: space-between;
+  /* flex: 1; */
   /* flex-wrap: wrap; */
-  margin-left: -15px;
-  margin-left: -15px;
+  /* margin-left: -15px; */
+  /* margin-right: -15px; */
   text-align: center;
   font-family: Averta, sans-serif;
 }
@@ -239,6 +243,7 @@ font-family: Averta, sans-serif;
   padding-left: 15px;
   display: block;
   height: 516.188px;
+  
 }
 
 
@@ -262,8 +267,8 @@ font-family: Averta, sans-serif;
   z-index: -1;
   /* vertical-align:  middle; */
     border-style: none;
-    display: block !important;
-    text-align: left;
+    display: block ;
+    /* text-align: left; */
 
 }
 .inner-main-div{
@@ -295,7 +300,6 @@ font-family: Averta, sans-serif;
       margin-inline-end: 0px;
       text-align: left;
       font-family: Averta, sans-serif;
-
     }
     
     .program-cad-h3-div{
@@ -484,6 +488,113 @@ margin-bottom: 0.5rem;
   font-family: Averta, sans-serif;
   margin-right: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+  .two-big-btns{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  .footer{
+    text-align: center;
+    
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  .f-f-div{
+    flex-direction: column;
+  }
+
+  
+}
+
+
+
+@media screen and (max-width:991px) {
+  .three-row{
+    /* display: block; */
+    
+    flex-direction: column;
+    
+  }
+
+  
+
+}  
+
+
+
+@media screen and (max-width:1199px) {
+  .left-dot-img{
+    display: none;
+  }
+  .right-dot-img{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
