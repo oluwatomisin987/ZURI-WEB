@@ -597,6 +597,8 @@ margin-bottom: 0.5rem;
 
 
 
+
+
 /* SECOND PART STARTS */
 
 
@@ -2228,13 +2230,26 @@ display: block;
 
 
 
+
+
+
+
+
+
+
+
+
+@media (max-width:699px)  {
+.male-face-div{
+  display: none;
+}
+}
+
 @media (max-width:1000px)  {
   .right-side-links{
     display: none;
   }
-
 }
-
 
 @media (max-width:1199px)  {
   .row-div{
@@ -2254,15 +2269,11 @@ display: block;
 
 
 
-
-
-
-
-
 @media (max-width:450px)  {
   .inner-both-div{
     /* border: 7px dotted black; */
     display: flex;
+    padding-top: 10px;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
@@ -2271,19 +2282,14 @@ display: block;
   }  
 
 
-
-
-
-
-
   .thumb-svg{
-    width: 95px;
+    width: 100px;
     
   }
 
   .enroll-now{
     width: 340px;
-    height: 80px;
+    /* height: 80px; */
     font-size: 45px;
     text-align: center;
     vertical-align: middle;
@@ -2324,6 +2330,7 @@ display: block;
     align-items: center;
     justify-items: center;
     justify-self: center;
+    mix-blend-mode: darken;
   
   }
 
@@ -2337,7 +2344,7 @@ display: block;
   }
 
   .first-p{
-    font-size: 40px;
+    font-size: 55px;
 
   }
 
@@ -2348,14 +2355,54 @@ display: block;
       display: block;
       /* font-size: 49px; */
       /* text-align: center; */
-      font-weight: 700 !important;
+      font-weight: 750 !important;
       font-style: normal;
       letter-spacing: 110%;
-      line-height: 70px;
+      line-height: 95px;
       /* padding-top: 10px; */
     
     
   }
+
+  .third-p{
+    /* border: 3px solid navy; */
+    padding-top: 50px;
+    font-size: 55px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.16884px;
+    line-height: 65px;
+    text-align: center;
+  }
+
+
+  .enroll-div{
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    }
+    
+    .enroll{
+      /* border: 3px solid black; */
+      font-size: 60px;
+      padding-bottom: 20px;
+      padding-top:20px;
+      padding-left: 50px;
+      padding-right: 50px;
+   
+    }
+
+    .wire-div{
+      /* border: 3px solid black; */
+      display: flex;
+      width: 70%;
+      justify-content: flex-end;
+    }
+
+    .svg-wwire{
+      width: 200px;
+    }
  
   
 
