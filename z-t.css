@@ -1856,7 +1856,8 @@ body{
 
   .second-part-header{
     /* border: 4px solid yellowgreen; */
-    width: 83%;
+    max-width: 100%;
+    width: 80%;
     /* margin: 0px; */
     top: 0;
     padding: 0px;
@@ -1877,6 +1878,7 @@ body{
     /* flex-direction: row; */
     /* top: 0; */
     justify-content: space-between;
+    /* justify-content: space-around; */
     width: 100%;
     align-items: center;
     margin: auto;
@@ -1909,12 +1911,13 @@ body{
     position: absolute!important;
     /* width: 155px; */
     /* width: 50%; */
+  
   } 
 
   .thumb-div{
     /* border: 5px dotted saddlebrown; */
-    /* margin-left: -30px; */
-    width: 90%;
+    /* margin-right: -50px; */
+    width:  90%;
     /* height: 90px;  */
   } 
   
@@ -1935,7 +1938,7 @@ body{
 
   .zuri-head-svg{
     /* width: 500px; */
-    width: 60%;
+    width: 75%;
     padding-top: 10px;
   }
 
