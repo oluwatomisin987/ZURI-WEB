@@ -2101,7 +2101,7 @@ border: 6px solid pink;
     .to-help-div-p{
       /* border: 3px solid saddlebrown; */
       text-align: center;
-      font-size:60px;
+      /* font-size:60px; */
       line-height: 130%;
     }
     
@@ -2321,45 +2321,73 @@ border: 10px dotted hotpink;
   /* font-size: 65px; */
 
 }
-.four-grid{
-  border: 4px dotted yellow;
+/* .four-grid{
+  border: 14px dotted yellow;
   padding-top: 100px;
-  /* align-items: center; */
+  align-items: center;
   justify-content: center;
-   /* gap: 40px; */
-   /* width: 100%; */
+   gap: 40px;
+   width: 100%;
    width: 100%;
    
+} */
+
+.four-grid{
+  border: 4px solid wheat;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  grid-template-areas: 
+   'a b'
+   'c d';
+   /* gap: 2px; */
+   margin-top: -24px;
+   /* margin-left: -24px; */
+   width: 100%;
+   /* width: 500.25px; */
 }
+
 
 
 .item-a{
   border: 6px solid black;
   grid-area: a;
+  padding: 0px;
+  width: 50%;
   /* padding-left: 24px; */
   /* padding-top: 24px; */
 }
 
 .item-b{
   grid-area: b;
-  padding-left: 24px;
-  padding-top: 24px;
+  padding: 0px;
+  width: 50%;
+  /* margin: auto; */
+  /* width: 25%; */
+  /* padding-left: 24px; */
+  /* padding-top: 24px; */
 
 }
 
 
 .item-c{
   grid-area: c;
-  padding-left: 24px;
-  padding-top: 24px;
+  width: 50%;
+  padding: 0px;
+  /* padding-left: 24px; */
+  /* padding-top: 24px; */
 }
 
 
 .item-d{
   
   grid-area: d;
-  padding-left: 24px;
-  padding-top: 24px;
+  width: 50%;
+  padding: 0px;
+  /* padding-left: 24px; */
+  /* padding-top: 24px; */
   
 }
 
@@ -2380,14 +2408,15 @@ border: 10px dotted hotpink;
 
 .button-img{
   /* width: 140px; */
-  padding-right: 25px;
+  padding-right: 15px;
 }
 
 .button-p{
   /* font-size: 60px; */
   color: rgb(255, 255, 255);
   font-weight: 400px;
-  letter-spacing: 0.00983em;
+  font-size: 10px;
+  /* letter-spacing: 0.00983em; */
 }
   
   .big-woman-img{
@@ -2433,7 +2462,7 @@ border: 10px dotted hotpink;
   }
   
   .section-6-p-b{
-    font-size: 90px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 100px;
     letter-spacing:  0.3752px;
