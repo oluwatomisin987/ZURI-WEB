@@ -1802,7 +1802,7 @@ body{
   /* max-width: 750px; */
   width: 100%;
   /* border: 6px dotted black; */
-border: 6px solid pink;
+/* border: 6px solid pink; */
 }
   
 
@@ -1840,6 +1840,7 @@ border: 6px solid pink;
 
   .inner-both-div{
     /* border: 7px dotted black; */
+    padding: 10px;
     display: flex;
     /* padding-top: 10px; */
     /* flex-direction: row; */
@@ -1886,7 +1887,7 @@ border: 6px solid pink;
   .thumb-div{
     /* border: 5px dotted saddlebrown; */
     /* margin-right: -50px; */
-    width:  90%;
+    width:  80%;
     /* height: 90px;  */
   } 
   
