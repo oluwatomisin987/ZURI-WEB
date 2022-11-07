@@ -291,12 +291,12 @@ justify-content: center;
   background-color: #e7332b;
   background-origin: padding-box;
   text-decoration: none;
-  /* padding: 30px; */
+  padding: 10px 30px;
   font-size: 18px;
   font-weight: 400;
   position: relative;
-  padding-bottom: 10px;
-  padding-top:10px;
+  /* padding-bottom: 10px; */
+  /* padding-top:10px; */
   /* padding-left: 32px; */
   /* padding-right: 32px; */
   border-radius: 71px;
@@ -2203,10 +2203,13 @@ body{
     .Why-p{
       /* border: 3px solid black; */
       font-size: 19px;
+      padding-left: 10px;
     }
 
 
     .here-p{
+      /* border: 5px solid red;*/
+      padding-left: 10px; 
       color: rgb(27, 26,32);
       display: block;
       font-size: 30px;
@@ -2489,7 +2492,7 @@ margin: auto;
   .section-6-top-both-div{
   display: flex;
   flex-direction: column;
-  padding-top: 150px;
+  /* padding-top: 150px; */
   /* padding-left: 24px;  */
   }
   
@@ -2745,11 +2748,11 @@ margin: auto;
     width: 100%;
     text-align: center;
     font-size: 24px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
  }
 
  .accordion-div{
-  /* border: 4px solid yellow; */
+  border: 4px solid yellow;
   display: block;
   /* margin-left: 300px; */
   /* width: 300%; */
@@ -2762,6 +2765,7 @@ padding: 80px;
 } */
 
 .panel{
+
   background-color: #fffdf5;
   font-size: 17px;
   display: none;
@@ -2775,13 +2779,6 @@ padding: 80px;
 
   background-color: #fffdf5;
   color: #333;
-  /* padding: 30px; */
-  /* width: 100%; */
-  /* padding-top: 50px; */
-  /* padding-left: -10px; */
-   /* padding-right: 48px;  */
-  /* padding-bottom: 50px; */
-
   font-size: 16px;
   font-weight: 600;
   line-height: 22px;
@@ -2873,7 +2870,7 @@ padding: 80px;
     text-align: center;
       color: #1b1a20;
       font-size: 25px;
-      margin-top: -10px;
+      margin-top: 8px;
       font-style: normal;
       font-weight: 700;
       line-height: 25px;
@@ -2925,8 +2922,8 @@ padding: 80px;
     box-shadow: 0 31px 60px rgba(231,51,43,.2);
     box-sizing: border-box;
     /* height: 250vh; */
-    /* height: auto; */
-    height: 850px;
+    height: auto;
+    /* height: 850px; */
     /* height: 100%; */
     width: 100%;
     padding: 50px;
@@ -2942,7 +2939,8 @@ padding: 80px;
     box-shadow: 0 31px 60px rgba(231,51,43,.2);
     box-sizing: border-box;
     /* height: 200vh; */
-    height: 700px;
+    /* height: 700px; */
+    height: auto;
     width: 100%;
     padding: 50px;
   }
