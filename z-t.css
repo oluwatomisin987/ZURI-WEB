@@ -2924,7 +2924,9 @@ padding: 80px;
     border-radius: 65px;
     box-shadow: 0 31px 60px rgba(231,51,43,.2);
     box-sizing: border-box;
-    height: 250vh;
+    /* height: 250vh; */
+    /* height: auto; */
+    height: 850px;
     /* height: 100%; */
     width: 100%;
     padding: 50px;
@@ -2939,7 +2941,8 @@ padding: 80px;
     border-radius: 65px;
     box-shadow: 0 31px 60px rgba(231,51,43,.2);
     box-sizing: border-box;
-    height: 200vh;
+    /* height: 200vh; */
+    height: 700px;
     width: 100%;
     padding: 50px;
   }
