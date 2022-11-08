@@ -1224,6 +1224,9 @@
     .top-img-div{
     display: flex;
     justify-content: center;
+    border: 5px solid gold;
+    width: 80%;
+    margin: auto;
     }
     
   .top-img{
@@ -1366,9 +1369,10 @@ padding-top: 74px;
 }
 
 .s-p-img-div{
-width: 100%;
+width: 80%;
 display: flex;
 justify-content: center;
+margin: auto;
 }
 
 .s-p-imgg{
