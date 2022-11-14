@@ -1020,7 +1020,7 @@
 
 
   
-@media (max-width:420px)  {
+@media (max-width:480px)  {
 
 
 
@@ -1225,16 +1225,16 @@
     display: flex;
     justify-content: center;
     /* border: 5px solid gold; */
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 50px;
     }
     
   .top-img{
-   max-width: 100%; 
-   border: 2px dotted yellow;
+   width: 90%; 
+   /* border: 2px dotted yellow; */
    /* width: 100%; */
-    min-width: 40%;
+    /* min-width: 40%; */
 
     /* width: auto; */
     /* height: auto; */
@@ -1377,14 +1377,14 @@ padding-top: 74px;
 }
 
 .s-p-img-div{
-width: 80%;
+width: 90%;
 display: flex;
 justify-content: center;
 margin: auto;
 }
 
 .s-p-imgg{
-  width: 80%;
+  width: 90%;
 }
 
   
