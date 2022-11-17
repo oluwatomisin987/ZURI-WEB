@@ -1,37 +1,35 @@
-@import url('http://fonts.cdnfonts.com/css/graphik');
-                
+@import url("http://fonts.cdnfonts.com/css/graphik");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Graphik', sans-serif;
-                                                
+  font-family: "Graphik", sans-serif;
+
   /* text-decoration: none; */
-  
 }
 
-body{
+body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  font-family: 'Graphik', sans-serif;
+  font-family: "Graphik", sans-serif;
   background-color: #fff;
 }
 
-.first-section{
-/* background-color: #ffff00; */
-height: 800px;
-background-image: url("ZURI\ LANDING\ PAGE/hero-bg.svg");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-display: block;
-font-family: Averta, sans-serif;
+.first-section {
+  /* background-color: #ffff00; */
+  height: 800px;
+  background-image: url("ZURI\ LANDING\ PAGE/hero-bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  font-family: Averta, sans-serif;
 }
 
-.head-img{
+.head-img {
   display: flex;
   /* border: 5px dotted red; */
   margin: auto;
@@ -43,13 +41,13 @@ font-family: Averta, sans-serif;
   margin-bottom: 69px;
 }
 
-.logo-img{
+.logo-img {
   margin: auto;
   vertical-align: middle;
   border-style: none;
 }
 
-.LBG{
+.LBG {
   /* border: 5px dotted red; */
   padding: 10px;
   margin: 0 auto;
@@ -59,7 +57,7 @@ font-family: Averta, sans-serif;
   /* width: 700px; */
 }
 
-.LBG h2{
+.LBG h2 {
   font-size: 32px;
   font-weight: 800;
   font-family: Averta, sans-serif;
@@ -69,7 +67,7 @@ font-family: Averta, sans-serif;
   margin-bottom: 36px;
 }
 
-.LBG p{
+.LBG p {
   font-size: 16px;
   line-height: 24px;
   font-family: Averta, sans-serif;
@@ -78,32 +76,31 @@ font-family: Averta, sans-serif;
   margin-bottom: 1rem;
 }
 
-.LBG-a{
+.LBG-a {
   color: #eb5850;
   text-decoration: none;
   font-family: Averta, sans-serif;
   background-color: transparent;
 }
 
-.two-big-btns{
+.two-big-btns {
   /* border: 4px dotted green; */
-   margin-top: 92px;
-   text-align: center;
-   font-size: 1rem;
-   font-family: Averta, sans-serif;
-   font-weight: 400;
-   line-height: 1.5;
-   color: #212529;
-   display: flex; 
-   align-content: center;
-   justify-content: center;
-   
+  margin-top: 92px;
+  text-align: center;
+  font-size: 1rem;
+  font-family: Averta, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
-.two-big-btns-a-{
+.two-big-btns-a- {
   text-decoration: none;
   font-family: Averta, sans-serif;
-  color: #E7332B;
+  color: #e7332b;
   text-align: center;
   font-size: 1rem;
   font-weight: 400;
@@ -111,58 +108,58 @@ font-family: Averta, sans-serif;
   background-color: transparent;
   font-family: Averta, sans-serif;
 }
-.btn-1{
-background-color: #E7332B;
-cursor: pointer;
-font-family: Averta, sans-serif;
-margin-right:24px;
-display: inline-block;
-/* padding: 11px 28px; */
-/* border: 1px solid #E7332B; */
-overflow: visible;
-font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-    align-items: flex-start;
-color: #fff;
+.btn-1 {
+  background-color: #e7332b;
+  cursor: pointer;
+  font-family: Averta, sans-serif;
+  margin-right: 24px;
+  display: inline-block;
+  /* padding: 11px 28px; */
+  /* border: 1px solid #E7332B; */
+  overflow: visible;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  align-items: flex-start;
+  color: #fff;
 }
 
-.btn-1:hover{
+.btn-1:hover {
   background-color: #fff;
-  color: #E7332B;
-  border:1px solid #E7332B;
+  color: #e7332b;
+  border: 1px solid #e7332b;
 }
 
-.my-btn{
+.my-btn {
   padding: 11px 28px;
-border: 1px solid #E7332B;
+  border: 1px solid #e7332b;
 }
 
-.btn-2{
-overflow: visible;
-font-family: inherit;
-font-size: inherit;
-line-height: inherit;
-align-items: flex-start;
-color: #E7332B;
-background-color: #fff;
+.btn-2 {
+  overflow: visible;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  align-items: flex-start;
+  color: #e7332b;
+  background-color: #fff;
 }
 
-.btn-2:hover{
-background-color: #E7332B;
-color: #fff;
-border: 1px solid #fff;
+.btn-2:hover {
+  background-color: #e7332b;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
-.second-section{
-/* border: 3px dotted yellow;   */
-background-color: #fff;
-overflow: hidden;
-display: block;
-font-family: Averta, sans-serif;
+.second-section {
+  /* border: 3px dotted yellow;   */
+  background-color: #fff;
+  overflow: hidden;
+  display: block;
+  font-family: Averta, sans-serif;
 }
 
-.second-section-first-cont{
+.second-section-first-cont {
   margin: 0 auto;
   padding-top: 0 !important;
   max-width: 1440px !important;
@@ -182,20 +179,20 @@ font-family: Averta, sans-serif;
   text-align: center !important;
 } */
 
-.zuri-team-heading{
+.zuri-team-heading {
   font-size: 14px;
   line-height: 24px;
-  color: #E7332B;
+  color: #e7332b;
   margin-top: 141px;
   font-weight: 500;
   text-align: center !important;
   font-family: Averta, sans-serif;
   margin-bottom: 0.5rem;
   margin-block-end: 1em;
-  margin-block-start:1em;
+  margin-block-start: 1em;
 }
 
-.slogan{
+.slogan {
   font-size: 24px;
   line-height: 40px;
   text-align: center;
@@ -203,11 +200,11 @@ font-family: Averta, sans-serif;
   margin-top: 8px;
   margin-bottom: 64px;
   margin-block-end: 1em;
-  margin-block-start:1em;
+  margin-block-start: 1em;
   font-family: Averta, sans-serif;
 }
 
-.three-outer-cont{
+.three-outer-cont {
   /* display: flex; */
   /* justify-content: space-between; */
   margin: 0 auto;
@@ -226,7 +223,7 @@ font-family: Averta, sans-serif;
   max-width: 1240px !important;
 } */
 
-.three-row{
+.three-row {
   /* border: 3px dotted yellow; */
   display: flex;
   justify-content: space-between;
@@ -238,7 +235,7 @@ font-family: Averta, sans-serif;
   font-family: Averta, sans-serif;
 }
 
-.first-program-cad-outer{
+.first-program-cad-outer {
   /* border: 3px dotted yellow; */
   position: relative;
   z-index: 1;
@@ -249,21 +246,19 @@ font-family: Averta, sans-serif;
   padding-left: 15px;
   display: block;
   /* height: 516.188px; */
-  
 }
 
-
-.first-program-cad-inner{
+.first-program-cad-inner {
   /* border: 3px dotted yellow; */
   width: 100%;
-  background-color: #FFFAFA;
-  padding:  61px 47px 82px 36px;
+  background-color: #fffafa;
+  padding: 61px 47px 82px 36px;
   text-align: left !important;
   display: block;
   font-family: Averta, sans-serif;
 }
 
-.left-dot-img{
+.left-dot-img {
   width: 413px;
   margin-bottom: 48px;
   /* width: 100%; */
@@ -272,18 +267,17 @@ font-family: Averta, sans-serif;
   top: -75px;
   z-index: -1;
   /* vertical-align:  middle; */
-    border-style: none;
-    display: block ;
-    /* text-align: left; */
-
+  border-style: none;
+  display: block;
+  /* text-align: left; */
 }
-.inner-main-div{
+.inner-main-div {
   text-align: left;
   display: block;
   font-family: Averta, sans-serif;
 }
 
-.training-img{
+.training-img {
   margin-bottom: 48px;
   text-align: left;
   display: block;
@@ -291,53 +285,53 @@ font-family: Averta, sans-serif;
   /* vertical-align: middle; */
 }
 
-.program-cad-p{
+.program-cad-p {
   /* border: 3px solid black; */
   font-size: 16px;
   line-height: 24px;
   color: #514949;
   opacity: 0.9;
-      margin-top: 0;
-      margin-bottom: 1rem;
-      display: block;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-      text-align: left;
-      font-family: Averta, sans-serif;
-    }
-    
-    .program-cad-h3-div{
-font-size: 1.7rem;
-margin-bottom: 0.5rem;
-    font-weight: 500;
-    line-height: 1.2;
-    margin-top: 0px;
-    display: block;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-      font-family: Averta, sans-serif;
-      text-align: left !important;
-    }
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: left;
+  font-family: Averta, sans-serif;
+}
 
-    .program-cad-a{
-      text-decoration: none;
-      font-size: 16px;
-    line-height: 24px;
-    color: #E7332B;
-    opacity: 0.9;
-    background-color: transparent;
-    text-align: left;
-    font-family: Averta, sans-serif;
-    text-size-adjust: 100%;
-    text-decoration-thickness: auto;
-    font-weight: 500;
-    }
+.program-cad-h3-div {
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: Averta, sans-serif;
+  text-align: left !important;
+}
 
-.second-program-cad-outer{
+.program-cad-a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e7332b;
+  opacity: 0.9;
+  background-color: transparent;
+  text-align: left;
+  font-family: Averta, sans-serif;
+  text-size-adjust: 100%;
+  text-decoration-thickness: auto;
+  font-weight: 500;
+}
+
+.second-program-cad-outer {
   position: relative;
   text-align: center;
   width: 100%;
@@ -348,7 +342,7 @@ margin-bottom: 0.5rem;
   height: 516.188px;
 }
 
-.right-dot-img{
+.right-dot-img {
   /* width: 90%; */
   width: 371.984px;
   position: absolute;
@@ -359,96 +353,86 @@ margin-bottom: 0.5rem;
   display: block;
   /* vertical-align: middle; */
   border-style: none;
-
 }
 
-.footer{
+.footer {
   margin-top: 215px;
   max-width: 1240px !important;
-  margin-left: auto  !important;
+  margin-left: auto !important;
   margin-left: auto !important;
   display: block;
   font-family: Averta, sans-serif;
 }
-.f-f-div{
+.f-f-div {
   display: flex;
   justify-content: space-between;
-      flex-wrap: wrap;
-      margin-bottom: 56px;
-      padding: 20px;
-      font-family: Averta, sans-serif;
+  flex-wrap: wrap;
+  margin-bottom: 56px;
+  padding: 20px;
+  font-family: Averta, sans-serif;
 }
-.flex-1-div{
+.flex-1-div {
   display: block;
   font-family: Averta, sans-serif;
 }
-.flex-1-logo{
+.flex-1-logo {
   vertical-align: middle;
   border-style: none;
 }
 
-.flex-2-div{
+.flex-2-div {
   display: block;
   font-family: Averta, sans-serif;
 }
-.flex-2-h3{
+.flex-2-h3 {
   font-size: 16px;
-    font-weight: bold;
-    line-height: 24px;
-    color: #514949;
-    margin-bottom: 0.5rem;
-    font-family: Averta, sans-serif;
-    display: block;
-    /* margin-block-start: 1em;
+  font-weight: bold;
+  line-height: 24px;
+  color: #514949;
+  margin-bottom: 0.5rem;
+  font-family: Averta, sans-serif;
+  display: block;
+  /* margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px; */
 }
 
-.flex-2-a{
+.flex-2-a {
   /* border: 2px solid black; */
-  color: #E7332B;
-    text-decoration: none;
-    background: transparent;
-    font-family: Averta, sans-serif;
-    cursor: pointer;
+  color: #e7332b;
+  text-decoration: none;
+  background: transparent;
+  font-family: Averta, sans-serif;
+  cursor: pointer;
 }
 
-.flex-2-p{
+.flex-2-p {
   /* border: 2px solid black; */
   margin-bottom: 1rem;
   font-family: Averta, sans-serif;
 }
 
-.flex-3-div{
+.flex-3-div {
   display: block;
   font-family: Averta, sans-serif;
 }
 
-.flex-3-h3{
+.flex-3-h3 {
   font-size: 16px;
-    font-weight: bold;
-    line-height: 24px;
-    color: #514949;
-    margin-bottom: 0.5rem;
-    display: block;
-    font-family: Averta, sans-serif;
-    /* margin-block-start: 1em;
+  font-weight: bold;
+  line-height: 24px;
+  color: #514949;
+  margin-bottom: 0.5rem;
+  display: block;
+  font-family: Averta, sans-serif;
+  /* margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px; */
 }
 
-.flex-3-p-a{
-  font-size: 14px;
-    line-height: 20px;
-    color: #514949;
-    opacity: 0.9;
-    margin-bottom: 1rem;
-    font-family: Averta, sans-serif;
-}
-
-.flex-3-p-b{
+.flex-3-p-a {
   font-size: 14px;
   line-height: 20px;
   color: #514949;
@@ -457,155 +441,107 @@ margin-bottom: 0.5rem;
   font-family: Averta, sans-serif;
 }
 
-.flex-4-div{
+.flex-3-p-b {
+  font-size: 14px;
+  line-height: 20px;
+  color: #514949;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  font-family: Averta, sans-serif;
+}
+
+.flex-4-div {
   display: block;
   font-family: Averta, sans-serif;
 }
 
-.contact-icons-div{
+.contact-icons-div {
   display: block;
   font-family: Averta, sans-serif;
 }
-.c-i-a{
+.c-i-a {
   text-decoration: none;
-  color: #E7332B;
+  color: #e7332b;
   background: transparent;
   font-family: Averta, sans-serif;
 }
 
-.c-i-img{
+.c-i-img {
   width: 18px !important;
-    margin-right: 5px;
-    vertical-align: middle;
-    border-style: none;
+  margin-right: 5px;
+  vertical-align: middle;
+  border-style: none;
 }
-.footer-hr{
+.footer-hr {
   margin: 1rem;
   /* opacity: 0.2; */
   border: 0.7px solid #514949;
   box-sizing: content-box;
-    height: 0;
-    overflow: visible;
+  height: 0;
+  overflow: visible;
 }
 
-.footer-last-div{
+.footer-last-div {
   text-align: center;
   margin-left: auto;
   font-family: Averta, sans-serif;
   margin-right: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:600px){
-  
-  .first-program-cad-outer{
+@media screen and (max-width: 600px) {
+  .first-program-cad-outer {
     margin-top: 30px;
-
   }
 
-  .two-big-btns{
+  .two-big-btns {
     display: flex;
     flex-direction: column;
   }
 
-.btn-2{
-  margin-top: 20px;
+  .btn-2 {
+    margin-top: 20px;
+  }
 }
 
-}
-
-@media screen and (max-width:768px) {
-  
-
-  .footer{
+@media screen and (max-width: 768px) {
+  .footer {
     text-align: center;
-    
   }
-  
-  .f-f-div{
+
+  .f-f-div {
     display: flex;
     flex-direction: column;
-  } 
-  
+  }
 }
 
-
-
-@media screen and (min-width:900px) {
-  .two-big-btns{
+@media screen and (min-width: 900px) {
+  .two-big-btns {
     display: flex;
     /* flex-direction: column; */
   }
 
-
-  .first-program-cad-outer{
+  .first-program-cad-outer {
     margin-top: 30px;
-
   }
-
 }
 
-
-@media screen and (max-width:991px) {
-  .three-row{
+@media screen and (max-width: 991px) {
+  .three-row {
     /* display: block; */
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
   }
 
-  .first-program-cad-outer{
+  .first-program-cad-outer {
     margin-top: 30px;
-
-  } 
-
-}  
-
-
-@media screen and (max-width:1199px) {
-  .left-dot-img{
-    display: none;
-  }
-  .right-dot-img{
-    display: none;
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 1199px) {
+  .left-dot-img {
+    display: none;
+  }
+  .right-dot-img {
+    display: none;
+  }
+}
