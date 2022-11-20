@@ -206,6 +206,7 @@ body {
   /* margin-block-end: 1em; */
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  
 }
 
 .second-p {
@@ -2093,7 +2094,8 @@ display: block;
     /* border: 4px solid red; */
     padding-top: 109px;
     /* margin-top: -10px; */
-    padding-bottom: 80px;
+    padding-bottom: 50px;
+    height: auto;
   }
 
   .curve-1-img {
@@ -2341,7 +2343,8 @@ display: block;
     /* color: #fff; */
     border-radius: 41px;
     box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
-    padding: 40px;
+    padding: 35px;
+    height: auto;
   }
 
   .middle-p-1 {
